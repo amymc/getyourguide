@@ -1,0 +1,21 @@
+.touring-infobubble {
+  height: 400px;
+  width: 700px;
+  padding: 15px;
+
+  &__image {
+    width: 350px;
+    margin: 0 auto;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+  }
+
+  &__title {
+    display: inline-block;
+    text-align: center;
+    font-size: 30px;
+    line-height: 42px;
+    padding-top: 16px;
+  }
+}

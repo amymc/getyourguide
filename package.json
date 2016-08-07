@@ -1,0 +1,22 @@
+{
+  "name": "getyourguide",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "author": "amymc",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.14.0",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-sass": "^2.3.2",
+    "gulp-uglify": "^2.0.0"
+  },
+  "dependencies": {
+    "http-server": "^0.9.0"
+  },
+  "scripts": {
+    "start": "./node_modules/http-server/bin/http-server & gulp",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
